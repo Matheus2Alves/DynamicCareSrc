@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
 
@@ -12,19 +12,16 @@ text-decoration: none;
 
 }
 
-body{
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 
-    font-family: 'Montserrat';
-    
-    }
     .cabecalho{
     
     display: flex;
-    
-    align-items: middle;
-    
-    justify-content: space-around;
-    
+
+    position: relative;
+        
     padding: 24px;
     
     }
@@ -36,19 +33,81 @@ body{
     }
     
     .cabecalho-menu{
-    
-    font-weight: bold;
-    
-    display: flex;
-    
-    gap: 60px;
+            
+    position: relative;
+
+    top: 50px;
+
+    left: 300px;
     
     }
     
+    .menu-item-home{
+
+        padding: 10px;
+
+        font-weight: bold;
+    
+        color: #ffffff;
+
+        background-color: rgba(24, 62, 159, 1);
+        ;
+        
+        font-size: 20px;
+        
+    }
+
     .menu-item{
+
+    padding: 10px;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #000;
     
     color: #000000;
     
     font-size: 20px;
     
     }
+
+    .menu-item-login{
+
+        padding: 5px;
+        
+        border-radius: 30px;
+    
+        color: #000000;
+
+        background-color: rgba(27, 156, 228, 1);
+        ;
+        
+        font-size: 20px;
+        
+    }
+
+
+.back-image{
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    position: relative;
+}
+
+.dynamic-care{
+    position: absolute;
+    font-size: 50px;
+    top: 308px;
+    left: 800px;
+    color: black;
+    background-color: rgba(27, 156, 228, 1);
+}
+
+.manual{
+    position: absolute;
+    font-size: 15px;
+    top: 370px;
+    left: 800px;
+    color: white;
+    background-color: rgba(24, 62, 159, 1);
+}
